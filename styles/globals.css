@@ -1,26 +1,39 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+
+.box {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-radius: 20px;
+
+}
+.imagefood {
+  position: relativeg9i;
+  height: 23vh;
+    width: auto;
+    border-radius: 20px;
+    left: 0.7rem;
+
+}
+.fonthead{
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+.headingclass{
+  padding-top: 2rem;
+  
+  font-size: 1.9rem;
+  font-weight: 600;
+
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+.pricecss {
+  color: limegreen;
+  font-size: 1.5rem;
 
-* {
-  box-sizing: border-box;
-}
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+}
+.specialcss {
+  color: lightslategray;
+
+
 }
