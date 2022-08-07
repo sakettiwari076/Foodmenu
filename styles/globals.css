@@ -7,7 +7,8 @@
 
 }
 .imagefood {
-  padding-left: 2.3rem;
+  position: relative;
+  left: 0.7rem;
   height: 23vh;
     width: auto;
     border-radius: 20px;
