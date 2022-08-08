@@ -6,6 +6,7 @@ const Menu = (props) => {
 <div className='box '>
 <div className='row '>
 <div className='col'>
+<p className='text-center'>{props.heading}</p>
 <p className=' fonthead headingclass px-2'>{props.foodname}</p>
 <p className='fonthead specialcss  px-2'>{props.special}</p>
 <p className='pricecss fonthead  px-2 '>{props.price}</p>

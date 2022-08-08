@@ -37,3 +37,12 @@
 
 
 }
+.buttoncss {
+  background: none;
+  border: none;
+}
+.logocss {
+  height: 10vh;
+  position: relative;
+  bottom: 1rem;
+}
